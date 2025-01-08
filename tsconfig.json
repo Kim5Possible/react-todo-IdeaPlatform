@@ -34,6 +34,7 @@
       }
     ]
   },
+  "include": ["src/components", "src/custom.d.ts"],
   "exclude": [
     "node_modules",
     "build",

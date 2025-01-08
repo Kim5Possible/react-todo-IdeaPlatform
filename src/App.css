@@ -3,8 +3,10 @@
 @tailwind utilities;
 
 html {
-  background-image: url("../assets/background.png");
+  background-image: url("/public/assets/background.png");
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
 }
 
